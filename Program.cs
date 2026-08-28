@@ -122,6 +122,11 @@ namespace C__Advanced_01
             //dog.Sound(); //sound
 
             #endregion
+
+            #region Q13
+            //What does the 'default' keyword do in generics ?
+            //The default keyword returns the default value of a generic type T.
+            #endregion
         }
 
         //Genaric Method => Q4
