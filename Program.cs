@@ -159,6 +159,12 @@ namespace C__Advanced_01
             //out => Covariance - Output / producing values
             //in=> contravariance- Input / consuming values
             #endregion
+
+            #region Q18
+            //How do static members work in generic types ?
+            //static members in a generic class are shared by all objects of the same constructed type, but each different type argument gets its own separate static member.
+
+            #endregion
         }
 
         //Genaric Method => Q4
