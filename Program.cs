@@ -1,4 +1,7 @@
-﻿namespace C__Advanced_01
+﻿using System.Data;
+using static System.Runtime.InteropServices.JavaScript.JSType;
+
+namespace C__Advanced_01
 {
     internal class Program
     {
@@ -61,6 +64,22 @@
             ////========================================================
             //string maxString = FindMax("Apple", "Banana");
             //Console.WriteLine(maxString); // Banana
+            #endregion
+
+            #region Q6
+            // What is a generic interface? Write IRepository<T>.
+            //generic interface is an interface that uses a type parameter<T> so it can work with different data types while maintaining type safety.
+            //Interface was created ...
+            IRepository<string> stringRepository;
+            IRepository<int> intRepository;
+            //can be used with opjects too
+            #endregion
+
+            #region Q7
+            //What is the 'struct' constraint? Write an example.
+            //The struct constraint in C# is used with generics to specify that the type T must be a value type.
+            //where T : struct => the word "where" define a constrain 
+            //check the inteface for the example.
             #endregion
         }
 
