@@ -110,6 +110,18 @@ namespace C__Advanced_01
             //Zoo<Dog> Zoo1 = new Zoo<Dog>();
             //Zoo1.Hear(new Dog());
             #endregion
+
+            #region Q12
+            //How do you apply multiple constraints? Write an example. 
+            //by writing (where T: (constrain1 , constrain2 ))
+            //check Zoo class for Ex.
+            //Zoo<Dog> Zoo01 = new Zoo<Dog>();
+
+            //Dog dog = new Dog();
+            //dog.Print();//Dog
+            //dog.Sound(); //sound
+
+            #endregion
         }
 
         //Genaric Method => Q4

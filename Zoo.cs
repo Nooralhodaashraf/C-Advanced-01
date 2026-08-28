@@ -4,7 +4,7 @@ using System.Text;
 
 namespace C__Advanced_01
 {
-    internal class Zoo<T> where T : Animal
+    internal class Zoo<T> where T : Animal,IPrintable, new()
     {
         public void Hear(T animal)
         {

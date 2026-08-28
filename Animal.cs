@@ -13,9 +13,12 @@ namespace C__Advanced_01
 
     }
 
-    internal class Dog: Animal {
-    
-
+    internal class Dog : Animal, IPrintable
+    {
+        public void Print()
+        {
+            Console.WriteLine("Dog");
+        }
     }
 
 }
