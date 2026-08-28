@@ -1,4 +1,6 @@
-﻿using System.Data;
+﻿using System.ComponentModel;
+using System.Data;
+using System.Numerics;
 using System.Reflection.Metadata;
 using System.Runtime.Intrinsics.X86;
 using static System.Runtime.InteropServices.JavaScript.JSType;
@@ -169,6 +171,19 @@ namespace C__Advanced_01
             #region Q19
             //How can you inherit from a generic class?
             //by specifying the type argument when creating the derived class.
+            #endregion
+
+            #region Q20
+            //Complete Exercise -Create a generic Cache < TKey,TValue> with Add, Get, Remove, Contains, and expiration support.
+            //Cache<int, string> cache = new Cache<int, string>();
+            //cache.Add(1, "Hello", TimeSpan.FromMinutes(5));
+            //cache.Add(2, "World", TimeSpan.FromMinutes(10));
+            //Console.WriteLine(cache.Get(1)); // Hello
+            //Console.WriteLine(cache.Get(2)); // World
+            //Console.WriteLine(cache.Contains(3)); // True
+            //Console.WriteLine(cache.Contains(5)); // False
+            //cache.Remove(2);
+            //Console.WriteLine(cache.Contains(2)); // False
             #endregion
         }
 
