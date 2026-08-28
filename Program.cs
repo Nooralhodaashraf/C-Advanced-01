@@ -103,6 +103,13 @@ namespace C__Advanced_01
             //Printer<Student> printer = new Printer<Student>();
             //printer.PrintItem(new Student());
             #endregion
+
+            #region Q11
+            //What is the base class constraint? Write an example.
+            //The base class constraint is used with generics to specify that the type T must inherit from a specific base class.
+            //Zoo<Dog> Zoo1 = new Zoo<Dog>();
+            //Zoo1.Hear(new Dog());
+            #endregion
         }
 
         //Genaric Method => Q4
