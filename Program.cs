@@ -22,6 +22,15 @@
             //stringContainer.Add("Hello");
             //Console.WriteLine(stringContainer.Get());//Hello
             #endregion
+
+            #region Q3
+            //What are multiple type parameters? Write Pair<TKey, TValue>.
+            //Multiple type parameters means that a generic class or method can accept more than one data type.
+            //class was created ..lets use it :
+            //Pair<int, string> student = new Pair<int, string>(1, "Noor");
+            //Console.WriteLine(student.Key);//1
+            //Console.WriteLine(student.Value);//Noor
+            #endregion
         }
     }
 }
