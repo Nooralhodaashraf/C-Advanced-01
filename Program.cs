@@ -127,6 +127,20 @@ namespace C__Advanced_01
             //What does the 'default' keyword do in generics ?
             //The default keyword returns the default value of a generic type T.
             #endregion
+
+            #region Q14
+            //Write a SafeList < T > that returns default when the index is invalid.
+            SafeList<int> numbers = new SafeList<int>(3);
+            numbers.Add(0, 10);
+            numbers.Add(1, 20);
+            Console.WriteLine(numbers.Get(0));  // 10
+            Console.WriteLine(numbers.Get(5));  // 0
+            Console.WriteLine(numbers.Get(-1)); // 0
+            #endregion
+
+            #region Q15
+
+            #endregion
         }
 
         //Genaric Method => Q4
