@@ -152,6 +152,13 @@ namespace C__Advanced_01
             //"T is only used as an input/parameter."
             #endregion
             #endregion
+
+            #region Q17
+            //What is the difference between covariance and contravariance?
+            //Both are featuers in generic interfaces and delegates that allow type conversion between related types.
+            //out => Covariance - Output / producing values
+            //in=> contravariance- Input / consuming values
+            #endregion
         }
 
         //Genaric Method => Q4
