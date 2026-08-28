@@ -165,6 +165,11 @@ namespace C__Advanced_01
             //static members in a generic class are shared by all objects of the same constructed type, but each different type argument gets its own separate static member.
 
             #endregion
+
+            #region Q19
+            //How can you inherit from a generic class?
+            //by specifying the type argument when creating the derived class.
+            #endregion
         }
 
         //Genaric Method => Q4
