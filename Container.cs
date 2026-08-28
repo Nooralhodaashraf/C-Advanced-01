@@ -4,7 +4,7 @@ using System.Text;
 
 namespace C__Advanced_01
 {
-    internal class Container<T>
+    internal class Container<T> where T : class
     {
         private T value;
         public void Add(T item)

@@ -1,4 +1,5 @@
 ﻿using System.Data;
+using System.Reflection.Metadata;
 using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace C__Advanced_01
@@ -70,8 +71,8 @@ namespace C__Advanced_01
             // What is a generic interface? Write IRepository<T>.
             //generic interface is an interface that uses a type parameter<T> so it can work with different data types while maintaining type safety.
             //Interface was created ...
-            IRepository<string> stringRepository;
-            IRepository<int> intRepository;
+            //IRepository<string> stringRepository;//wont work with thw constrain 
+            //IRepository<int> intRepository;
             //can be used with opjects too
             #endregion
 
@@ -81,6 +82,22 @@ namespace C__Advanced_01
             //where T : struct => the word "where" define a constrain 
             //check the inteface for the example.
             #endregion
+
+            #region Q8
+            //What is the 'class' constraint? Write an example.
+            //The class constraint in C# is used with generics to specify that the type T must be a reference type (class)
+            //check Container class for example...
+            #endregion
+
+            #region Q9
+            //What is the 'new()' constraint? Write an example.
+            //The new() constraint specifies that the generic type T must have a public parameterless constructor.
+
+            //Factory<Student> factory = new Factory<Student>();
+            //Student student = factory.Create();
+            #endregion
+
+
         }
 
         //Genaric Method => Q4
