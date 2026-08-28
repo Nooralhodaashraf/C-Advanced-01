@@ -97,7 +97,12 @@ namespace C__Advanced_01
             //Student student = factory.Create();
             #endregion
 
-
+            #region Q10
+            //What is the interface constraint? Write an example
+            //The interface constraint is used in generics to specify that the type T must implement a specific interface.
+            //Printer<Student> printer = new Printer<Student>();
+            //printer.PrintItem(new Student());
+            #endregion
         }
 
         //Genaric Method => Q4
