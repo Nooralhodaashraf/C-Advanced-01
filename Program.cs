@@ -139,12 +139,18 @@ namespace C__Advanced_01
             Console.WriteLine(numbers.Get(-1)); // 0
             #endregion
 
-            #region Q15 && Task
+            #region Task
+            #region Q15 
             //What is covariance? Explain the 'out' keyword.
             //Covariance allows you to use a more derived type where a base type is expected.
-            //out keyword in generic interfaces and delegates.
             //The out keyword tells C#:
             //"T is only used to produce/return values, not to receive values."
+            #endregion
+
+            #region Q16
+            //What is contravariance? Explain the 'in' keyword.
+            //"T is only used as an input/parameter."
+            #endregion
             #endregion
         }
 
