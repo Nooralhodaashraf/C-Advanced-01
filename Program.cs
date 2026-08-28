@@ -1,5 +1,6 @@
 ﻿using System.Data;
 using System.Reflection.Metadata;
+using System.Runtime.Intrinsics.X86;
 using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace C__Advanced_01
@@ -138,8 +139,12 @@ namespace C__Advanced_01
             Console.WriteLine(numbers.Get(-1)); // 0
             #endregion
 
-            #region Q15
-
+            #region Q15 && Task
+            //What is covariance? Explain the 'out' keyword.
+            //Covariance allows you to use a more derived type where a base type is expected.
+            //out keyword in generic interfaces and delegates.
+            //The out keyword tells C#:
+            //"T is only used to produce/return values, not to receive values."
             #endregion
         }
 
